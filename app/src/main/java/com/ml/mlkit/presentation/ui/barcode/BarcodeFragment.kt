@@ -13,7 +13,9 @@ class BarcodeFragment : BaseFragment<FragmentBarcodeBinding>(FragmentBarcodeBind
         super.onViewCreated(view, savedInstanceState)
         binding.btnBarcode.setOnClickListener {
             findNavController().navigate(R.id.action_barcodeFragment_to_barcodeScannerFragment)
+
         }
+
     }
 
 
