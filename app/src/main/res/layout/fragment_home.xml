@@ -7,10 +7,14 @@
     tools:context=".presentation.ui.home.HomeFragment">
 
     <com.ml.mlkit.presentation.custom_view.toolbar.ToolbarStandard
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:title="@string/yourdetect"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/yourdetect"
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,6 +18,7 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
         savedInstanceState: Bundle?
     ): View {
 
+
         return super.onCreateView(inflater, container, savedInstanceState)
     }
 
