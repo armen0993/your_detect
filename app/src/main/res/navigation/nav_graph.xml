@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ml.mlkit.presentation.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/barcodeScannerFragment"
+        android:name="com.ml.mlkit.presentation.ui.barcode.BarcodeScannerFragment"
+        android:label="fragment_barcode"
+        tools:layout="@layout/fragment_barcode_scanner" />
+    <fragment
+        android:id="@+id/passportScannerFragment"
+        android:name="com.ml.mlkit.presentation.ui.passport_scanner.PassportScannerFragment"
+        android:label="fragment_recognize_text"
+        tools:layout="@layout/fragment_passport_scanner" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.ml.mlkit.presentation.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passportFragment"
+        android:name="com.ml.mlkit.presentation.ui.passport_scanner.PassportFragment"
+        android:label="fragment_pasport"
+        tools:layout="@layout/fragment_pasport" >
+        <action
+            android:id="@+id/action_passportFragment_to_passportScannerFragment"
+            app:destination="@id/passportScannerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/barcodeFragment"
+        android:name="com.ml.mlkit.presentation.ui.barcode.BarcodeFragment"
+        android:label="BarcodeFragment" >
+        <action
+            android:id="@+id/action_barcodeFragment_to_barcodeScannerFragment"
+            app:destination="@id/barcodeScannerFragment" />
+    </fragment>
+</navigation>

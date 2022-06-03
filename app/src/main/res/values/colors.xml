@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="granite">#808080</color>
+    <color name="gray_text">#A8A8A8</color>
+
+    <color name="ptBlack">#212227</color>
+    <color name="black">#000000</color>
+
+    <color name="splashWhite">#F3F3F3</color>
+
+    <color name="ptBlue">#4264EB</color>
+    <color name="lightBlue">#36D4FB</color>
+    <color name="ptBlueLight">#D0E7FF</color>
+
+    <color name="ptGradientStart">#212227</color>
+    <color name="ptGradientEnd">#34344E</color>
+
+    <color name="ptGray1">#52525D</color>
+    <color name="ptGray2">#92929D</color>
+    <color name="ptGray3">#C2C2CA</color>
+    <color name="ptGray4">#EEEEF4</color>
+    <color name="ptGrayBlue">#F5F5FF</color>
+
+    <color name="ptGreen">#36AE77</color>
+    <color name="ptGreenLight">#C4EDDA</color>
+
+    <color name="ptOrange">#FF9419</color>
+
+    <color name="ptRed">#FF1C37</color>
+    <color name="ptRed1">#FF969B</color>
+
+    <color name="ptWhite">#FFFFFF</color>
+    <color name="ptWhite80">#CCFFFFFF</color>
+
+    <color name="ptYellow">#FFCC00</color>
+    <color name="ptYellowDark">#EBBC00</color>
+    <color name="ptYellowOrange">#FF7E00</color>
+    <color name="ptYellowLight">#FFEDA5</color>
+
+    <color name="ptTransparent">#00FFFFFF</color>
+
+    <color name="bg_spotlight">#DD000000</color>
+    <color name="icon_background_gray">#696969</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

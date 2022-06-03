@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomToolbar">
+        <attr name="title" format="string" localization="suggested" />
+        <attr name="subTitle" format="string" localization="suggested" />
+        <attr name="leftItem" format="reference" />
+        <attr name="rightItem" format="reference" />
+        <attr name="rightItemText" format="string" />
+        <attr name="rightItemColor" format="color" />
+        <attr name="titleColor" format="color" />
+        <attr name="subtitleColor" format="color" />
+        <attr name="rightItemEnabled" format="boolean" />
+    </declare-styleable>
+    </resources>
