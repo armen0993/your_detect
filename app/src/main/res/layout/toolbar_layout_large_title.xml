@@ -14,7 +14,7 @@
         android:ellipsize="end"
         android:gravity="start|center_vertical"
         android:maxLines="1"
-        android:text="@string/yourdetect"
+        android:text="@string/your_scanner"
         android:textAlignment="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".presentation.ui.passport_scanner.PassportFragment">
+    tools:context=".presentation.ui.recognize_text.RecognizeTextFragment">
 
     <com.ml.mlkit.presentation.custom_view.toolbar.ToolbarStandard
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:title="Passport Scanner"
+        app:title="@string/recognize_text"
         app:layout_constraintTop_toTopOf="parent"
         />
 

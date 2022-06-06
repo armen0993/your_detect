@@ -6,12 +6,17 @@
         android:title="@string/home" />
     <item
         android:id="@+id/barcode_scanner_fragment"
-        android:icon="@drawable/ic_qr_code_selector"
-        android:title="@string/barcode" />
+        android:icon="@drawable/ic_qr_code_scanner"
+        android:title="@string/barcode_scanner" />
 
     <item
         android:id="@+id/recognize_text_fragment"
-        android:icon="@drawable/ic_passport_selector"
-        android:title="@string/passport_detector" />
+        android:icon="@drawable/ic_text_recognize"
+        android:title="@string/recognize_text" />
+
+    <item
+        android:id="@+id/settings_fragment"
+        android:icon="@drawable/ic_settings_selector"
+        android:title="@string/settings" />
 
 </menu>

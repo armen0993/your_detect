@@ -7,7 +7,7 @@ import androidx.camera.core.ImageProxy
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
-import com.ml.mlkit.presentation.ui.passport_scanner.PassportDetectListener
+import com.ml.mlkit.presentation.ui.recognize_text.passport_scanner.PassportDetectListener
 
 class PassportDetectAnalyzer(private val isPassportDetect: PassportDetectListener) :
     ImageAnalysis.Analyzer {

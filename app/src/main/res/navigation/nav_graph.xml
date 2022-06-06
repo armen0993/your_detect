@@ -16,21 +16,23 @@
         tools:layout="@layout/fragment_barcode_scanner" />
     <fragment
         android:id="@+id/passportScannerFragment"
-        android:name="com.ml.mlkit.presentation.ui.passport_scanner.PassportScannerFragment"
+        android:name="com.ml.mlkit.presentation.ui.recognize_text.passport_scanner.PassportScannerFragment"
         android:label="fragment_recognize_text"
         tools:layout="@layout/fragment_passport_scanner" />
     <fragment
         android:id="@+id/splashFragment"
         android:name="com.ml.mlkit.presentation.ui.splash.SplashFragment"
-        android:label="fragment_splash"
+        android:label="SplashFragment"
         tools:layout="@layout/fragment_splash" >
         <action
             android:id="@+id/action_splashFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/navigation"
+            app:popUpToInclusive="true"/>
     </fragment>
     <fragment
         android:id="@+id/passportFragment"
-        android:name="com.ml.mlkit.presentation.ui.passport_scanner.PassportFragment"
+        android:name="com.ml.mlkit.presentation.ui.recognize_text.RecognizeTextFragment"
         android:label="fragment_pasport"
         tools:layout="@layout/fragment_pasport" >
         <action
@@ -45,4 +47,9 @@
             android:id="@+id/action_barcodeFragment_to_barcodeScannerFragment"
             app:destination="@id/barcodeScannerFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.ml.mlkit.presentation.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

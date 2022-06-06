@@ -14,10 +14,9 @@ import com.ml.mlkit.databinding.ActivityMainBinding
 import com.ml.mlkit.presentation.extensions.hide
 import com.ml.mlkit.presentation.extensions.show
 import com.ml.mlkit.presentation.ui.barcode.BarcodeFragment
-import com.ml.mlkit.presentation.ui.barcode.BarcodeScannerFragment
 import com.ml.mlkit.presentation.ui.home.HomeFragment
-import com.ml.mlkit.presentation.ui.passport_scanner.PassportFragment
-import com.ml.mlkit.presentation.ui.passport_scanner.PassportScannerFragment
+import com.ml.mlkit.presentation.ui.recognize_text.RecognizeTextFragment
+import com.ml.mlkit.presentation.ui.settings.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     private var _binding: ActivityMainBinding? = null
@@ -41,7 +40,8 @@ class MainActivity : AppCompatActivity() {
                 when (f) {
                     is HomeFragment -> showBottomNav()
                     is BarcodeFragment -> showBottomNav()
-                    is PassportFragment -> showBottomNav()
+                    is RecognizeTextFragment -> showBottomNav()
+                    is SettingsFragment -> showBottomNav()
                     else -> hideBottomNav()
                 }
             }
@@ -59,6 +59,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.home_fragment -> navController.navigate(R.id.homeFragment)
                 R.id.barcode_scanner_fragment -> navController.navigate(R.id.barcodeFragment)
                 R.id.recognize_text_fragment -> navController.navigate(R.id.passportFragment)
+                R.id.settings_fragment -> navController.navigate(R.id.settingsFragment)
             }
             return@setOnItemSelectedListener true
         }

@@ -1,4 +1,4 @@
-package com.ml.mlkit.presentation.ui.passport_scanner
+package com.ml.mlkit.presentation.ui.recognize_text.passport_scanner
 
 import android.Manifest
 import android.annotation.SuppressLint

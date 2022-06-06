@@ -1,4 +1,4 @@
-package com.ml.mlkit.presentation.ui.passport_scanner
+package com.ml.mlkit.presentation.ui.recognize_text
 
 import android.os.Bundle
 import android.view.View
@@ -8,7 +8,7 @@ import com.ml.mlkit.databinding.FragmentPasportBinding
 import com.ml.mlkit.presentation.base.BaseFragment
 
 
-class PassportFragment : BaseFragment<FragmentPasportBinding>(FragmentPasportBinding::inflate) {
+class RecognizeTextFragment : BaseFragment<FragmentPasportBinding>(FragmentPasportBinding::inflate) {
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".presentation.ui.home.HomeFragment">
+    tools:context=".presentation.ui.settings.SettingsFragment">
 
     <com.ml.mlkit.presentation.custom_view.toolbar.ToolbarStandard
         android:id="@+id/toolbar"
@@ -13,7 +13,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/your_scanner"
+        app:title="@string/settings"
 
         />
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Твой сканер</string>
+    <string name="home">Дом</string>
+    <string name="barcode">Сканер штрих-кода</string>
+    <string name="passport_detector">Детектор паспортов</string>
+    <string name="qr">Поместите QR-код в область квадрата</string>
+    <string name="passport_photo">Фото паспорта</string>
+    <string name="your_scanner">Твой сканер</string>
+    <string name="barcode_scanner">Сканер штрих-кода</string>
+    <string name="recognize_text">Распознать текст</string>
+    <string name="settings">Настройки</string>
+</resources>

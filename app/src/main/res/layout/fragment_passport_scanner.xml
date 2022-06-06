@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".presentation.ui.passport_scanner.PassportScannerFragment">
+    tools:context=".presentation.ui.recognize_text.passport_scanner.PassportScannerFragment">
 
     <androidx.camera.view.PreviewView
         android:id="@+id/scan_face_preview_view"

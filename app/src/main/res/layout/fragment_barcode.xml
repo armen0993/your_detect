@@ -9,7 +9,7 @@
     <com.ml.mlkit.presentation.custom_view.toolbar.ToolbarStandard
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:title="Barcode Scanner"
+        app:title="@string/barcode_scanner"
         app:layout_constraintTop_toTopOf="parent"
         />
 
